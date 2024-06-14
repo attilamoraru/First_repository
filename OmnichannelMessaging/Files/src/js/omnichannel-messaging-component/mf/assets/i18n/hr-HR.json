@@ -1,0 +1,160 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Odaberite: {0}",
+        "Selected": "Odabrano:",
+        "SelectButton": "Odaberite",
+        "CancelButton": "Odustani",
+        "Blankslate": "Nema zapisa za ovaj objekt"
+    },
+    "SearchInput": {
+        "Placeholder": "Pretraži",
+        "Settings": {
+            "Cancel": "Odustani",
+            "Apply": "Primijeni",
+            "SearchColumnTemplate": "Pretraži po stupcu \"{0}\"",
+            "StartsWith": "Počinje s",
+            "Contains": "Sadrži",
+            "Equals": "Jednako"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Dodaj",
+        "BlankslateWithFilters": "Nema zapisa koji odgovaraju trenutnim kriterijima pretrage. Očistite ili promijenite parametre pretrage"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Prihvati razgovor",
+            "AlreadyAssignedChat": "Razgovor je dodijeljen drugom agentu",
+            "NewMessages": "Nove poruke",
+            "ChatIsCompleted": "Razgovor završen {datePart} u {timePart}",
+            "AcademyLink": "https://academy.creatio.com/docs/8-0/user/setup_and_administration/base_integrations/set_up_chats/overview/set_up_chat_processing",
+            "LastChatMessageAuthorCaption": "Vi:",
+            "DraftMessageCaption": "Skica:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Chat channels are not configured",
+                    "textStart": "Molimo kontaktirajte svog administratora sustava i zatražite postavljanje kanala. Saznajte više o radu s razgovorima u ",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Chat channels are not configured",
+                    "textStart": "Molim ",
+                    "splitTextLink": {
+                        "href": "/ClientApp/#/ChatSettings",
+                        "displayText": "dodaj"
+                    },
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    },
+                    "textEnd": " a new channel. Learn more about working with chats in the "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "New chats are not distributed to inactive agents",
+                    "textStart": "Please change your status to \"Active.\" Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "There are no queued chats",
+                    "textStart": "Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "New chats are not distributed to inactive agents",
+                    "textStart": "Please change your status to \"Active.\" Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "There are no queued chats",
+                    "textStart": "Learn more about working with chats in the Academy ",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "It looks like you don't have chats at work. Check the list of new chats"
+                }
+            },
+            "Actions": {
+                "Complete": "Završite razgovor",
+                "ProcessesDivider": "Processes",
+                "EmptyProcessesList": "Add a business process on the \"Chat Actions\" detail",
+                "SearchFacebook": "Pretraži na Facebooku",
+                "ContactDuplicates": {
+                    "Show": "Prikaži duplicirane kontakte",
+                    "NotFound": "Nisu pronađeni duplicirani kontakti",
+                    "Find": "Pronađi duplicirane kontakte"
+                },
+                "Back": "Natrag",
+                "Transfer": "Prenesi razgovor"
+            },
+            "ChatListTitle": "Aktivni razgovori",
+            "Tips": {
+                "BackToChats": "Natrag na popis"
+            },
+            "Bots": {
+                "Name": "Bot"
+            },
+            "NewMessagePlaceholder": "Poruka",
+            "AttachFile": "Datoteka",
+            "OversizeFiles": "Prekoračen je maksimalni limit veličine datoteke od 25 MB u sljedećim datotekama: {0}",
+            "NewChatsTitle": "Novi razgovor"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Započet je razgovor: {0} od strane",
+                "EndDate": "Razgovor završen: {0} od strane"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Pre-chat summary",
+            "Toggle": {
+                "Opened": "Sakrij",
+                "Closed": "Prikaži više"
+            },
+            "Fields": {
+                "Source": "Izvor"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Pronađeno {0} sličnih kontakata",
+            "DuplicatesNotFound": "Nisu pronađeni slični kontakti",
+            "FindDuplication": "Pronađi slične kontakte"
+        },
+        "Transfer": {
+            "ToOperator": "Agent",
+            "ToQueue": "Red",
+            "TransferWindowCaption": "Prenesi na",
+            "OperatorStatusTips": {
+                "Active": "Aktivan",
+                "Inactive": "Neaktivan",
+                "ChatsExceeded": "Prekoračen broj razgovora"
+            },
+            "NoAvailableAgents": "Nema dostupnih agenata za prijenos",
+            "NoAvailableQueues": "Nema dostupnih redova za prijenos"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Prijedlozi predložaka",
+        "SuggestionHint": "Pokušajte upisati riječ za početak pretraživanja",
+        "QuickSearchHint": "Upišite // za pretraživanje predloška",
+        "TemplateSearchCaption": "Predlošci odgovora"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Obavijesti u pregledniku su onemogućene. Omogućite obavijesti kako biste primili upozorenja o novim porukama. Više pročitajte na ",
+        "splitTextLink": {
+            "href": "https://academy.creatio.com/docs/8-0/user/platform_basics/communications/notifications/check_notifications_and_process_tasks#title-2099-2",
+            "displayText": "Akademija"
+        }
+    }
+}

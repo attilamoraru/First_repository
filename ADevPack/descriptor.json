@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "cdae91ca-ca34-8c35-3129-a6e725c9c58e",
+    "Name": "ADevPack",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1718282049000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/ADevPack.csproj",
+    "DependsOn": [
+      {
+        "UId": "2fabaf6c-0f92-4530-aef8-40345c021da2",
+        "PackageVersion": "7.8.0",
+        "Name": "ProductCore"
+      }
+    ]
+  }
+}
