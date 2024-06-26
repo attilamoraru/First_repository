@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "a00051f4-cde3-4f3f-b08e-c5ad1a5c735a",
     "Name": "Custom",
-    "ModifiedOnUtc": "\/Date(1718281946000)\/",
+    "ModifiedOnUtc": "\/Date(1718621562000)\/",
     "Maintainer": "Customer",
     "Description": "Custom Package",
     "DependsOn": [
@@ -239,6 +239,11 @@
         "UId": "468413c6-da9a-4bae-a3e9-31456fea166d",
         "PackageVersion": "7.8.0",
         "Name": "EmailMining"
+      },
+      {
+        "UId": "49900feb-d9ce-940d-306b-89ae06809795",
+        "Name": "DevClassic",
+        "Type": 1
       },
       {
         "UId": "4e9b7aff-71f7-46eb-bad9-60cfdc0a54c2",
@@ -641,11 +646,6 @@
         "UId": "cda68d34-0d3b-470f-d64e-ee0a923a7139",
         "PackageVersion": "7.8.0",
         "Name": "Finesse",
-        "Type": 1
-      },
-      {
-        "UId": "cdae91ca-ca34-8c35-3129-a6e725c9c58e",
-        "Name": "ADevPack",
         "Type": 1
       },
       {
