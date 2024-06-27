@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "a00051f4-cde3-4f3f-b08e-c5ad1a5c735a",
     "Name": "Custom",
-    "ModifiedOnUtc": "\/Date(1718621562000)\/",
+    "ModifiedOnUtc": "\/Date(1719485687000)\/",
     "Maintainer": "Customer",
     "Description": "Custom Package",
     "DependsOn": [
@@ -58,6 +58,11 @@
         "UId": "062de047-62f1-4580-85e2-0417d450a3a8",
         "PackageVersion": "7.8.0",
         "Name": "BaseScoring"
+      },
+      {
+        "UId": "06b2f9c5-2217-4cca-9749-77d954e77765",
+        "PackageVersion": "1.0.0",
+        "Name": "GlbDataBinding"
       },
       {
         "UId": "06d9ef10-51d8-122c-8933-9212e84236c9",
@@ -146,6 +151,12 @@
         "Name": "SspWorkplace"
       },
       {
+        "UId": "2ecba2bd-b810-47a5-a1b1-08c888529d6c",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCustomer360App",
+        "Type": 1
+      },
+      {
         "UId": "2f47ab98-ef47-a742-be37-90c8020ce797",
         "PackageVersion": "7.8.0",
         "Name": "CrtCloudIntegration"
@@ -186,6 +197,12 @@
         "UId": "36d65faf-3f18-1cae-d2cb-b71c4414d164",
         "PackageVersion": "7.8.0",
         "Name": "Playbook"
+      },
+      {
+        "UId": "379003f3-74dc-4305-c4de-04f43be2bfb0",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCustomer360Mobile",
+        "Type": 1
       },
       {
         "UId": "3857e21f-67c4-2b68-5b08-56a6557c017e",
@@ -311,6 +328,11 @@
         "UId": "613fd913-be03-46ce-909b-f44e4225469e",
         "PackageVersion": "7.8.0",
         "Name": "UIv2"
+      },
+      {
+        "UId": "636f291f-dbad-41e9-969d-68307a1ebdd2",
+        "Name": "UsrRealty",
+        "Type": 1
       },
       {
         "UId": "6651f29c-3f6e-4519-a8f4-127deb7515e2",
@@ -508,6 +530,13 @@
         "PackageVersion": "7.8.0",
         "Name": "SsoSettings",
         "Type": 1
+      },
+      {
+        "UId": "99158cb9-b1b4-3a1d-beb0-7157e0414e73",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtC360InUiV2",
+        "Type": 1,
+        "InstallBehavior": 1
       },
       {
         "UId": "99e69b3f-057b-4163-9247-fdd98287561f",
